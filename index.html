@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="icon" href="clock.svg" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <a href="/">Clockly</a>
+        <audio id="tick-sound" src="clock-tick.mp3" preload="auto"></audio>
+        <button id="sound-toggle">
+          <img src="music.svg" class="music" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="weather">
+        <span id="icon"></span>
+        <span class="city" id="city"> City</span>
+        <span class="temp" id="temp">35C</span>
+      </div>
+      <div class="clock" id="clock"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
