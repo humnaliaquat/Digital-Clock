@@ -38,7 +38,7 @@ async function getWeather() {
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
 
-        let apiKey = "5cb561d4d18c6a3a72c6577e88601188";
+        let apiKey = "ADD-API-KEY-HERE";
 
         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
